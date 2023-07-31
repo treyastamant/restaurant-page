@@ -1,0 +1,111 @@
+body {
+  display: grid;
+  justify-items: center;
+  align-content: flex-start;
+  text-align: center;
+  height: 100vh;
+  font-family: 'Arial Narrow Bold', sans-serif;
+  background-image: url(foodie-background.jpg) ;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: 0;
+}
+
+#content {
+  display: grid;
+  justify-items: center;
+  background-color: rgb(255, 255, 255, .7);
+  padding: 50px 0px;
+  width: 100%;
+  /* margin-top: 100px; */
+}
+
+h1 {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 95px;
+  margin: 0;
+  padding: 0;
+  color: sienna;
+}
+
+h2 {
+  font-size: 26px;
+  margin: 0;
+  margin-top: 10px;
+}
+
+h3 {
+  font-size: 18px;
+  margin: 0;
+}
+
+button {
+  width: 200px;
+  margin-top: 30px;
+  padding: 10px;
+  border: 2px solid;
+  color:steelblue;
+  border-radius: 10px;
+  background-color: white;
+}
+
+button:hover {
+  background-color: steelblue;
+  color: white;
+  cursor: pointer;
+}
+
+.nav ul {
+  list-style: none;
+  display: grid;
+  justify-content: center;
+  grid-template-columns: auto auto auto;
+  column-gap: 20px;
+  align-items: center;
+  font-weight: 700;
+  margin: 0;
+  margin-top: 10px;
+  padding: 0;
+}
+
+.nav li {
+  padding: 15px 40px 10px 40px;
+  background-color: rgb(255, 255, 255, .5);
+  border-radius: 10px 10px 0 0;
+}
+
+.nav li:hover {
+  background-color: rgb(255, 255, 255, .7);
+  border-radius: 10px 10px 0 0;
+  cursor: pointer;
+  color: sienna;
+}
+
+.nav li.active {
+  background-color: white;
+  color: sienna;
+  border-radius: 10px 10px 0 0;
+}
+
+.nav {
+  /* background-color: white; */
+  background-color: rgb(255, 255, 255,.4);
+  border-bottom: 3px solid white;
+  width: 100%;
+}
+
+
+
+
+@media screen and (max-width: 480px)  {
+  h1 {
+    font-size: 70px;
+  }
+  h2 {
+    font-size: 21px;
+  }
+  h3 {
+    font-size: 18px;
+  }
+}
