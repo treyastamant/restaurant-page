@@ -14,7 +14,7 @@ export default function loadMenu() {
   menuItemContainer.className = 'menu-items';
   content.appendChild(menuItemContainer);
 
-//dish type names
+  //dish type names
   let dishTypeNames = ['Soups', 'Salads', 'Entrees', 'Top Rated Dishes'];
   for (let i = 0; i < dishTypeNames.length; i++) {
     let dishTypeContainer = document.createElement('div');
@@ -26,9 +26,8 @@ export default function loadMenu() {
     menuItemContainer.appendChild(dishTypeContainer);
     dishTypeContainer.appendChild(dishTypeName);
   }
-
   const dishTypeContainers = document.querySelectorAll('.dish-type-container');
-
+  
   //dish names
   const soupNames = ['French Onion', 'Daily Special'];
   for (let i = 0; i < soupNames.length; i++) {

@@ -18,7 +18,6 @@ export default function loadContact() {
   content.appendChild(h3);
 
   const nav = document.querySelectorAll('li');
-  // nav.className.remove('active');
   nav[2].className = "active";
   nav[0].classList.remove('active');
   nav[1].classList.remove('active');

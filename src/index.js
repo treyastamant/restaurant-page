@@ -4,7 +4,6 @@ import loadContact from './contact.js';
 
 loadLanding();
 
-
 const nav = document.querySelectorAll('li');
 nav[0].addEventListener('click', loadLanding);
 nav[1].addEventListener('click', loadMenu);

@@ -4,7 +4,8 @@
   "description": "Practicing DOM manipulation by using JavaScript alone to generate the entire contents of the website!",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "subtree": "git subtree push --prefix dist origin gh-pages"
   },
   "author": "",
   "license": "ISC",
