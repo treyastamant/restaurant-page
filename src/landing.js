@@ -1,3 +1,5 @@
+import loadMenu from './menu.js';
+
 export default function loadLanding() {
 
   const content = document.querySelector('#content');
@@ -14,6 +16,7 @@ export default function loadLanding() {
 
   const button = document.createElement('button');
   button.textContent = "View Top Rated Dishes"
+  button.addEventListener('click', loadMenu);
 
   content.appendChild(h3);
   content.appendChild(h1);
